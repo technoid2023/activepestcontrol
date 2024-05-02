@@ -50,6 +50,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
+      <div style={{width:'60vh'}}></div>
     </div>
   )
 }
