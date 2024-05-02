@@ -4,7 +4,7 @@ import image from '../../Assests/pic1.avif';
 import secondaryImage from '../../Assests/carousel.jpg'; // Import your secondary image
 import profileImage1 from '../../Assests/male.avif'; // Import profile image 1
 import profileImage2 from '../../Assests/female.jpg';
-import about from '../../Assests/about.jpg';
+
 
 const AboutUs = () => {
   const imgHeight = '30vh'; 
