@@ -73,6 +73,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      
     </Layout>
   );
 }
