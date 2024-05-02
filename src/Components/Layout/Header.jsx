@@ -6,7 +6,7 @@ import logo from '../../Assests/logo.png';
 const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary shadow navbar-dark bg-dark" style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
+      <nav className="navbar navbar-expand-lg bg-transparent shadow navbar" style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
         <div className="container-fluid">
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <img src={logo} alt="logo" className="me-2" style={{ width: '3rem', height: '3rem' }} />
@@ -33,7 +33,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <div style={{ height: '64px' }}></div> 
+     
     </div>
   )
 }
