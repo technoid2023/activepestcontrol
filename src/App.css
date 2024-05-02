@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.nav-link:hover {
+  color: rgb(192, 79, 79); /* Change text color on hover */
+  background-color: rgb(136, 181, 211); /* Change background color on hover */
+}
+.active {
+  background-color: rgb(143, 144, 146);
+  color: rgb(149, 214, 88);
+  text-decoration-color: rgba(0, 0, 0, 0.192);
+}
