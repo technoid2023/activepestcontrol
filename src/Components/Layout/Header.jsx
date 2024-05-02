@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from '../../Assests/logo.png';
 
 const Header = () => {
+  
   const linkStyle = {
     color: 'teal',
     fontWeight: 'bold',
