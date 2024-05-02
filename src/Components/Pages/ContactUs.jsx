@@ -138,15 +138,16 @@ const ContactUs = () => {
           <h3 style={{ color: 'sienna' }}><strong><center>Enquiry Now for Details or Book Service</center></strong></h3>
           <MDBRow className="justify-content-center" style={{ marginBottom: '2rem', marginTop: '5rem' }}>
             <MDBCol md="6" lg="4" className="mb-4" style={{ color: 'darkslategray', fontSize: '20px' }}>
-              <div className="d-flex align-items-center mb-3">
-                <div className="icon-bg">
-                  <FontAwesomeIcon icon={faMapMarkerAlt} style={{ margin: '0 1rem', cursor: 'pointer', fontSize: '30px', background: 'white', borderRadius: '50%', padding: '10px', color: 'red' }} />
-                </div>
-                <div>
-                  <h4 style={{ marginBottom: '0', fontSize: '24px', fontWeight: 'bold', color: 'royalblue' }}>Address</h4>
-                  <p style={{ fontSize: '18px', fontFamily: 'Arial, sans-serif', color: 'black' }}>P55/6 Bansdroni Park, Kol-700070</p>
-                </div>
-              </div>
+            <div className="d-flex align-items-center mb-3" onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=P55/6+Bansdroni+Park,+Kol-700070', '_blank')} style={{ cursor: 'pointer' }}>
+            <div className="icon-bg">
+              <FontAwesomeIcon icon={faMapMarkerAlt} style={{ margin: '0 1rem', fontSize: '30px', background: 'white', borderRadius: '50%', padding: '10px', color: 'red' }} />
+            </div>
+            <div>
+              <h4 style={{ marginBottom: '0', fontSize: '24px', fontWeight: 'bold', color: 'royalblue' }}>Address</h4>
+              <p style={{ fontSize: '18px', fontFamily: 'Arial, sans-serif', color: 'black' }}>P55/6 Bansdroni Park, Kol-700070</p>
+            </div>
+          </div>
+
               <div className="d-flex align-items-center mb-3">
                 <div className="icon-bg">
                   <FontAwesomeIcon icon={faEnvelope} style={{ margin: '0 1rem', cursor: 'pointer', fontSize: '30px', background: 'white', borderRadius: '50%', padding: '10px', color: 'red' }} />
