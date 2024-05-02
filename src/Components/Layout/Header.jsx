@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-dark shadow navbar-dark" style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
+      <nav className="navbar navbar-expand-lg bg-dark shadow navbar-dark">
         <div className="container-fluid">
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <img src={logo} alt="logo" className="me-2" style={{ width: '3rem', height: '3rem' }} />
@@ -50,7 +50,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    <div style={{height:'30px'}}></div>
+    
     </div>
   )
 }
