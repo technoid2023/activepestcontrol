@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Layout from '../Layout/Layout';
 import image from '../../Assests/pic1.avif';
 import secondaryImage from '../../Assests/carousel.jpg'; // Import your secondary image
 import profileImage1 from '../../Assests/male.jpg'; // Import profile image 1
 import profileImage2 from '../../Assests/female.jpg';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp} from '@fortawesome/free-solid-svg-icons';
 const AboutUs = () => {
   const imgHeight = '30vh';
+  const [showGoToTop, setShowGoToTop] = useState(false);
+
+  const handleScroll = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleScrollVisibility = () => {
+    if (window.scrollY > 200) {
+      setShowGoToTop(true);
+    } else {
+      setShowGoToTop(false);
+    }
+  };
+
+  window.addEventListener('scroll', handleScrollVisibility);
   return (
     <Layout>
       <div style={{backgroundColor:'linen'}}>
@@ -265,7 +281,23 @@ const AboutUs = () => {
 
 
 </div>
-
+{showGoToTop && (
+  <div
+    style={{
+      position: 'fixed',
+      bottom: '20px',
+      right: '20px',
+      padding: '10px',
+      backgroundColor: 'skyblue', // Background color for the arrow icon
+      borderRadius: '50%', // Rounded border to make it circular
+      cursor: 'pointer',
+      zIndex: '9999',
+    }}
+    onClick={handleScroll}
+  >
+    <FontAwesomeIcon icon={faArrowUp} size='2x' style={{ color: 'black' }} />
+  </div>
+)}
       </Layout>
   );
 };
