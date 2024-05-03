@@ -4,9 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from '../../Assests/logo.png';
 
 const Header = () => {
-  
   const linkStyle = {
-    color: 'teal',
+    color: 'cornsilk',
     fontWeight: 'bold',
     padding: '8px 16px',
     borderRadius: '5px',
@@ -26,8 +25,8 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg bg-dark shadow navbar-dark">
         <div className="container-fluid">
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <img src={logo} alt="logo" className="me-2" style={{ width: '3rem', height: '3rem' }} />
-            <NavLink exact to="/" className="navbar-brand" style={{ ...linkStyle, color: 'navy' }}>APCS</NavLink>
+            <img src={logo} alt="logo" className="me-2" style={{ width: '4rem', height: '4rem' }} />
+            <span exact to="#" className="navbar-brand" style={{  color: 'chartreuse',fontFamily:'cursive', fontSize:'30px',fontStyle:'italic' }}>APCS</span>
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"><FontAwesomeIcon icon={faBars} /></span>
@@ -50,7 +49,6 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    
     </div>
   )
 }
