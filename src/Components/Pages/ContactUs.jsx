@@ -144,7 +144,7 @@ const ContactUs = () => {
             </div>
             <div>
               <h4 style={{ marginBottom: '0', fontSize: '24px', fontWeight: 'bold', color: 'royalblue' }}>Address</h4>
-              <p style={{ fontSize: '18px', fontFamily: 'Arial, sans-serif', color: 'black' }}>P55/6 Bansdroni Park, Kol-700070</p>
+              <p style={{ fontSize: '15px', fontFamily: 'Arial, sans-serif', color: 'black' }}>P55/6 Bansdroni Park, Kol-700070</p>
             </div>
           </div>
 
@@ -154,7 +154,7 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h4 style={{ marginBottom: '0', fontSize: '24px', fontWeight: 'bold', color: 'royalblue' }}>Email</h4>
-                  <p style={{ fontSize: '18px', fontFamily: 'Arial, sans-serif', color: 'black' }}>activepestcontrol2022@gmail.com</p>
+                  <p style={{ fontSize: '15px', fontFamily: 'Arial, sans-serif', color: 'black' }}>activepestcontrol2022@gmail.com</p>
                 </div>
               </div>
               <div className="d-flex align-items-center">
@@ -163,7 +163,7 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h4 style={{ marginBottom: '0', fontSize: '24px', fontWeight: 'bold', color: 'royalblue' }}>Mobile</h4>
-                  <p style={{ fontSize: '18px', fontFamily: 'Arial, sans-serif', color: 'black' }}>+917003849728</p>
+                  <p style={{ fontSize: '15px', fontFamily: 'Arial, sans-serif', color: 'black' }}>+917003849728</p>
                 </div>
               </div>
               <div style={{ marginTop: '2rem' }}>
