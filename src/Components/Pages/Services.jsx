@@ -110,7 +110,7 @@ const Services = () => {
 
   return (
     <Layout>
-      <div style={{ backgroundColor: '#f8f9fa', padding: '20px' }}>
+      <div style={{ backgroundColor: 'linen', paddingBottom: '20px',paddingRight: '20px',paddingLeft: '20px' }}>
         <header style={{ position: 'relative', overflow: 'hidden' }}>
           <img src={banner} alt="background" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
           <div className='mask' style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
