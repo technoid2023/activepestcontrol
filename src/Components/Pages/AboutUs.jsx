@@ -5,7 +5,7 @@ import secondaryImage from '../../Assests/carousel.jpg'; // Import your secondar
 import profileImage1 from '../../Assests/male.jpg'; // Import profile image 1
 import profileImage2 from '../../Assests/female.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp} from '@fortawesome/free-solid-svg-icons';
+import { faCircleArrowUp} from '@fortawesome/free-solid-svg-icons';
 const AboutUs = () => {
   const imgHeight = '30vh';
   const [showGoToTop, setShowGoToTop] = useState(false);
@@ -295,7 +295,7 @@ const AboutUs = () => {
     }}
     onClick={handleScroll}
   >
-    <FontAwesomeIcon icon={faArrowUp} size='2x' style={{ color: 'black' }} />
+    <FontAwesomeIcon icon={faCircleArrowUp} size='3x' style={{ color: 'black' }} />
   </div>
 )}
       </Layout>
