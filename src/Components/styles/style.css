@@ -1,0 +1,46 @@
+.hover-container {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-container:hover {
+  transform: scale(1.1);
+}
+
+/* Custom button style */
+.btn-book-service {
+  margin-top: 20px; /* Add margin top */
+}
+
+/* Adjust layout */
+.container {
+  padding-bottom: 50px; /* Add padding bottom to the container */
+}
+.service-section,
+.promise-section {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.service-section {
+  background: linear-gradient(120deg, #f6d365, #fda085);
+}
+
+.promise-section {
+  background: linear-gradient(120deg, #84fab0, #8fd3f4);
+}
+
+.section-title {
+  color: #0e0c0c;
+}
+
+.service-list,
+.promise-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.promise-text {
+  font-weight: bold;
+}
