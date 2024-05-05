@@ -20,7 +20,7 @@ import {
   MDBAccordionItem
 } from 'mdb-react-ui-kit';
 import Layout from '../Layout/Layout';
-import banner from '../../Assests/carousel2.jpg';
+import banner from '../../Assests/banner-1.jpg';
 import bug from '../../Assests/bug.webp';
 import mosquito from '../../Assests/mosquito.jpg';
 import termite from '../../Assests/termite.jpg';
@@ -96,7 +96,7 @@ const Services = () => {
   return (
     <Layout>
       <div style={{ backgroundColor: 'linen', paddingBottom: '20px', paddingRight: '20px', paddingLeft: '20px' }}>
-      <header style={{ position: 'relative', overflow: 'absolute', height: '300px' }}>
+      <header style={{ position: 'relative', overflow: 'absolute', height: '400px' }}>
   <img src={banner} alt="background" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', top: 0, left: 0 }} />
   <div className='mask' style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <div className='text-white  text-center'>
