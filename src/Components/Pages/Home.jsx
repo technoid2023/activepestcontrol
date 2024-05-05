@@ -29,12 +29,14 @@ const Home = () => {
 
   return (
     <Layout>
-      <div style={{ backgroundColor: "linen", minHeight: "100vh" }}>
+      <div style={{ backgroundColor: "linen", minHeight: "100vh",paddingTop:"1rem" }}>
         <div className="container mt-5">
-          <h1 className="text-center mb-5">Welcome to APCS</h1>
+        <h1 className="text-center mb-5" style={{ color: "rgb(01, 20,150)", fontWeight: "bold", fontSize: "4em", animation: "glow 1.5s infinite alternate" }}>Welcome to APCS</h1>
+
+
           <div
             id="carouselExampleSlidesOnly"
-            className="carousel slide mb-5"
+            className="carousel slide mb-2"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
@@ -242,3 +244,4 @@ const Home = () => {
 };
 
 export default Home;
+
