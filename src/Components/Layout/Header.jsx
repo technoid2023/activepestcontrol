@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import logo from '../../Assests/logo.png';
+import logo from '../../Assests/new.jpg';
 
 const Header = () => {
   const linkStyle = {
