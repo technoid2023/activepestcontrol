@@ -163,7 +163,7 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h4 style={{ marginBottom: '0', fontSize: '24px', fontWeight: 'bold', color: 'royalblue' }}>Mobile</h4>
-                  <p style={{ fontSize: '15px', fontFamily: 'Arial, sans-serif', color: 'black' }}>+917003849728</p>
+                  <p style={{ fontSize: '15px', fontFamily: 'Arial, sans-serif', color: 'black' }}>+917439008183</p>
                 </div>
               </div>
               <div style={{ marginTop: '2rem' }}>
