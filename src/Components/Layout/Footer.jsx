@@ -8,7 +8,7 @@ const Footer=()=> {
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         Copyright 2024 © Active Pest Control Service
-        <Link className='text-reset fw-bold' to='https://www.nic.in/' style={{ marginLeft: '50px' }}>
+        <Link className='text-reset fw-bold' to='https://technoid-hut.vercel.app' style={{ marginLeft: '50px' }}>
           Developed By TechnoidHut
         </Link>
       </div>
