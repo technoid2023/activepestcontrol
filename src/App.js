@@ -10,7 +10,7 @@ function App() {
     // Wait for the component to mount, then render the hidden clue
     const timeout = setTimeout(() => {
       setClueVisible(true); // Reveal the clue after some delay
-    }, 3000); // Adjust the timeout as per need
+    }, 60000); // Adjust the timeout as per need
 
     return () => clearTimeout(timeout); // Cleanup timeout on component unmount
   }, []);
@@ -28,6 +28,9 @@ function App() {
 
       <p className="instructions">
         Use <b>Developer Tools (F12)</b> to change the CSS properties of the <code>hidden-location</code> class and uncover the hidden message.
+      </p>
+           <p className="instructions">
+        If failed to solve wait for 1 hour the clue will automatically pop up here
       </p>
     </div>
   );
