@@ -52,7 +52,6 @@
  */
 
 
-
 .App {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -70,9 +69,16 @@ h1 {
 }
 
 .hidden-location {
-  visibility: hidden; /* Hides the clue */
-  font-size: 0px; /* Makes the text hidden */
-  color: transparent; /* Hides text color */
+  /* Initially hidden and cannot be seen */
+  display: none; /* Completely hides the clue in the DOM */
+  font-size: 0px; /* Hides the clue text */
+}
+
+.hidden-location.show {
+  /* This rule is triggered when the clue becomes visible */
+  display: block;
+  font-size: 16px;
+  color: black; /* Any color to make the clue visible */
 }
 
 .instructions {
