@@ -17,9 +17,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Find the Hidden SQL Clue</h1>
+      <h1>Be a Front END Developer to get your NEXT CLue</h1>
       <p className="random-clue">
-        "The SQL hint is hidden somewhere nearby your desk."
+        "The SQL hint is hidden somewhere near You"
       </p>
 
       <div className={`hidden-location ${clueVisible ? "show" : ""}`}>
