@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -38,10 +38,43 @@
 }
 .nav-link:hover {
   color: rgb(192, 79, 79); /* Change text color on hover */
-  background-color: rgb(136, 181, 211); /* Change background color on hover */
+/*
+  background-color: rgb(136, 181, 211); /* Change background color on hover 
 }
 .active {
   background-color: rgb(143, 144, 146);
   color: rgb(149, 214, 88);
   text-decoration-color: rgba(0, 0, 0, 0.192);
+}
+
+
+
+ */
+
+
+
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.random-clue {
+  color: #666;
+  margin: 20px 0;
+}
+
+.hidden-location {
+  visibility: hidden; /* Hides the clue */
+  font-size: 0px; /* Makes the text hidden */
+  color: transparent; /* Hides text color */
+}
+
+.instructions {
+  margin-top: 20px;
 }
