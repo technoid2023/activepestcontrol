@@ -2,24 +2,23 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  // State to track whether the clue is visible or not
+  
   const [clueVisible, setClueVisible] = useState(false);
 
-  // Effect hook to dynamically render the clue
   useEffect(() => {
-    // Wait for the component to mount, then render the hidden clue
+    
     const timeout = setTimeout(() => {
-      setClueVisible(true); // Reveal the clue after some delay
-    }, 7200000); // Adjust the timeout as per need
+      setClueVisible(true); 
+    }, 10800000); 
 
-    return () => clearTimeout(timeout); // Cleanup timeout on component unmount
+    return () => clearTimeout(timeout); 
   }, []);
 
   return (
     <div className="App">
-      <h1>Be a Front END Developer to get your NEXT CLue</h1>
+      <h1>Be a Front END Developer to get your NEXT Clue</h1>
       <p className="random-clue">
-        "The SQL hint is hidden somewhere near You"
+        "The SQL hint is hidden somewhere in this page"
       </p>
 
       <div className={`hidden-location ${clueVisible ? "show" : ""}`}>
@@ -30,7 +29,7 @@ function App() {
         Use <b>Developer Tools </b> to change the CSS properties of the <code>hidden-location</code> class and uncover the hidden message.
       </p>
            <p className="instructions">
-        If failed to solve wait for <b>2</b> hour the clue will automatically pop up here
+        If failed to solve wait for <b>3</b> hours the clue will automatically pop up here
       </p>
     </div>
   );
